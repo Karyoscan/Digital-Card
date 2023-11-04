@@ -1,0 +1,95 @@
+*{
+
+margin: 0;
+box-sizing: border-box;
+
+}
+body{
+
+
+    background-color: black;
+    color: aliceblue;
+}
+
+.header-main,.main-body{
+background-color: black;
+width: 300px;
+
+}
+.header-main{
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+.img-header{
+
+height:300px;
+width: 300px;
+margin-bottom: 20px;
+
+}
+
+.SoloMain{
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.sub-main{   
+margin: 1%  0px;
+padding: 30px 60px;
+background-color: rgb(52, 48, 48);
+border-radius:  30px;
+}
+.header-text{
+
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+.header-text>h2,.header-text>p,.header-text>h6{
+margin-bottom: 10px;
+
+
+}
+
+.header-btn-email{
+margin: 15px 0;
+width: 200px;
+font-weight: bold;
+
+}
+.body-about{
+    margin-bottom: 20px;
+}
+
+.body-text{
+    margin:0px 30px;
+}
+
+.body-text>div >h4 {
+    margin-bottom: 7px;
+}
+.body-text > div>p{
+font-size: 13px;
+margin-bottom: 5px;
+}
+
+.body-ul{
+
+display: flex;
+align-items: center;
+justify-content:space-between;
+margin-top: 30px;
+margin-right: 30px;
+list-style: none;
+padding-bottom: 20px;
+}
+.body-ul>li>i{
+color: gray;
+font-size: 20px;
+}
+
