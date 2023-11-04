@@ -4,7 +4,7 @@ import SoloMain  from './SoloProjeOne/SoloMain'
 function App() {
   return (
     <div >
-<SoloMain/>
+       <SoloMain/>
     </div>
   );
 }
